@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Solutions - Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Tech Solutions</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Tech Solutions</h1>
+        <p>
+          We provide innovative technology solutions to help your business grow
+        </p>
+        <a href="services.html" class="btn">Explore Services</a>
+      </div>
+    </section>
+
+    <main class="container">
+      <div class="flex-container">
+        <section class="main-content">
+          <h2>About Us</h2>
+          <p>
+            Tech Solutions is a leading provider of cutting-edge technology
+            solutions. We specialize in web development, mobile applications,
+            cloud services, and IT consulting.
+          </p>
+          <p>
+            With over 10 years of experience, our team of experts is dedicated
+            to delivering high-quality solutions that meet your business needs.
+          </p>
+          <p>
+            Our mission is to help businesses leverage technology to improve
+            efficiency, enhance customer experience, and drive growth.
+          </p>
+        </section>
+        <aside class="sidebar">
+          <h3>Why Choose Us?</h3>
+          <ul>
+            <li>Experienced professionals</li>
+            <li>Custom solutions</li>
+            <li>Quality assurance</li>
+            <li>Timely delivery</li>
+            <li>Ongoing support</li>
+          </ul>
+          <div class="cta-box">
+            <h4>Ready to get started?</h4>
+            <a href="contact.html" class="btn">Contact Us Today</a>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Tech Solutions</h4>
+          <p>Innovative technology solutions for modern businesses</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: info@techsolutions.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Tech Solutions. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+          this.classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>

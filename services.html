@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Solutions - Services</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Tech Solutions</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <section class="page-header">
+      <h1>Our Services</h1>
+      <p>Discover how we can help your business grow</p>
+    </section>
+
+    <main class="container">
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/web-dev.png" alt="Web Development Icon" />
+          </div>
+          <h3>Web Development</h3>
+          <p>
+            Custom websites and web applications tailored to your business
+            needs.
+          </p>
+          <a href="contact.html" class="btn-small">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/mobile-app.png" alt="Mobile App Icon" />
+          </div>
+          <h3>Mobile Applications</h3>
+          <p>Cross-platform mobile applications for iOS and Android.</p>
+          <a href="contact.html" class="btn-small">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/cloud.png" alt="Cloud Services Icon" />
+          </div>
+          <h3>Cloud Services</h3>
+          <p>Secure and scalable cloud solutions for your business.</p>
+          <a href="contact.html" class="btn-small">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/consulting.png" alt="IT Consulting Icon" />
+          </div>
+          <h3>IT Consulting</h3>
+          <p>Strategic IT consulting to optimize your business operations.</p>
+          <a href="contact.html" class="btn-small">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/security.png" alt="Cybersecurity Icon" />
+          </div>
+          <h3>Cybersecurity</h3>
+          <p>
+            Protecting your business from digital threats and vulnerabilities.
+          </p>
+          <a href="contact.html" class="btn-small">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <img src="images/data.png" alt="Data Analytics Icon" />
+          </div>
+          <h3>Data Analytics</h3>
+          <p>
+            Turn your data into actionable insights for better decision-making.
+          </p>
+          <a href="contact.html" class="btn-small">Learn More</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Tech Solutions</h4>
+          <p>Innovative technology solutions for modern businesses</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact</h4>
+          <p>Email: info@techsolutions.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Tech Solutions. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .querySelector(".hamburger")
+        .addEventListener("click", function () {
+          document.querySelector(".nav-links").classList.toggle("active");
+          this.classList.toggle("active");
+        });
+    </script>
+  </body>
+</html>
