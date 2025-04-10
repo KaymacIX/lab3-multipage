@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Solutions - Home</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
@@ -21,6 +22,7 @@
         <div class="line"></div>
         <div class="line"></div>
       </div>
+      <button id="themeToggle">Switch Theme</button>
     </header>
 
     <section class="hero">
@@ -50,7 +52,9 @@
             Our mission is to help businesses leverage technology to improve
             efficiency, enhance customer experience, and drive growth.
           </p>
+          <br /> 
         </section>
+      
         <aside class="sidebar">
           <h3>Why Choose Us?</h3>
           <ul>
@@ -66,6 +70,22 @@
           </div>
         </aside>
       </div>
+      <section>
+        <h2>Team Members</h2>
+        <ul id="userList"></ul>
+        <button id="loadUsersBtn">Load Users</button>
+        <!-- why isnt  this working -->
+        <br />
+        <br />
+        <div class="faq-item">
+          <h3 class="question">What is this website about?</h3>
+          <p class="answer">
+            This is a demo project for learning web development.
+          </p>
+        </div>
+      </section>
+      <button id="backToTopBtn" title="Back to top">↑</button>
+      
     </main>
 
     <footer>
