@@ -516,3 +516,7 @@ footer {
   background-color: #2980b9;
   transform: translateY(-3px);
 }
+
+.question {
+  color:#3498db
+}
